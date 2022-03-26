@@ -13,4 +13,5 @@ document.getElementById('login-submit').addEventListener("click", function(){
     if(userEmail == 'sontan@gmail.com' && userPassword == 'secret'){
         window.location.href = 'banking.html'
     }
-})
+});
+
