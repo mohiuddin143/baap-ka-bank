@@ -3,7 +3,6 @@ document.getElementById('deposit-button').addEventListener('click', function(){
     const depositInput = document.getElementById('deposit-input');
     const newDepositText = depositInput.value;
     const newDepositAmount = parseFloat(newDepositText);
-    // console.log(depositAmount);
     
     //update deposit total
     const depositTotal = document.getElementById('deposit-total');
